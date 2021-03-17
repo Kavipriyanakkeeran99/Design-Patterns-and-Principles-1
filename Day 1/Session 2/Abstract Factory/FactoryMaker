@@ -1,0 +1,11 @@
+
+public class FactoryMaker {
+	public static Factory getFactory(String factoryName) {
+		if(factoryName.equalsIgnoreCase("Audi")) 
+			return new AudiFactory();
+		else if(factoryName.equalsIgnoreCase("Mercedes"))
+			return new MercedesFactory();
+		
+		return null;
+	}
+}
