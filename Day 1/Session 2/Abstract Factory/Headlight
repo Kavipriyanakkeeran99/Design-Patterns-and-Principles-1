@@ -1,0 +1,14 @@
+
+public abstract class Headlight {
+	private String headlightModel;
+	
+	public Headlight(String headlight) {
+		this.headlightModel = headlight;
+	}
+
+	public String getHeadlightModel() {
+		return headlightModel;
+	}
+	
+	
+}
