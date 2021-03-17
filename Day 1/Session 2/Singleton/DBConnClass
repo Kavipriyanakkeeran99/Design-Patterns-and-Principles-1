@@ -1,0 +1,22 @@
+
+public class DBConn {
+	
+	//instance variable holding its own instance
+	private static DBConn instance = null;
+	
+	public String displayStr;
+	//constructor of class
+	private DBConn() {
+		displayStr = "This is a part of DBConn class";
+	}
+	
+	
+	//‘getInstance()’ static method to return the instance variable
+	//new instance of object created and assigned to instance variable
+	public static DBConn getInstance() {
+		if(instance == null) 
+			instance = new DBConn();
+		
+		return instance;
+	}
+}
