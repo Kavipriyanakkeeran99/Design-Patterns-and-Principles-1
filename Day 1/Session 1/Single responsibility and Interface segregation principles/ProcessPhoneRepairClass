@@ -1,0 +1,9 @@
+
+public class ProcessPhoneRepair implements IPhoneRepair {
+	
+	@Override
+	public void ProcessPhoneRepair(String modelName) {
+		System.out.println("Repair accepted!" + modelName);
+	}
+
+}
