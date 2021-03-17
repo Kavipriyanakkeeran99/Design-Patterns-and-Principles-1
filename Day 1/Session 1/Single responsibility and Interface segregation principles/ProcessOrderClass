@@ -1,0 +1,10 @@
+
+public class ProcessOrder implements IProcessOrder {
+
+	@Override
+	public void ProcessOrder(String modelName) {
+		System.out.println("Order accepted!" + modelName);		
+	}
+
+	
+}
