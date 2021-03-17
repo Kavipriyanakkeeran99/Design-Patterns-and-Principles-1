@@ -1,0 +1,9 @@
+
+public class ProcessAccessoryRepair implements IAccessoryRepair{
+	
+	@Override
+	public void ProcessAccessoryRepair(String accessoryType) {
+		System.out.println("Repair accepted!" + accessoryType);
+	}
+
+}
