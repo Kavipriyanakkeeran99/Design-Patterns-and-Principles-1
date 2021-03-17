@@ -1,0 +1,4 @@
+
+public interface IProcessOrder {
+	void ProcessOrder(String modelName);
+}
